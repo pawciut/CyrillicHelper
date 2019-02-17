@@ -316,4 +316,193 @@
   <data name="zh2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\zh2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="LOW_a2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_a2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_b2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_b2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_ch2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_ch2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_d2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_d2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_e2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_e2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_ee2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_ee2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_ee_kratkoe2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_ee_kratkoe2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_f2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_f2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_g2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_g2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_h2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_h2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_k2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_k2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_l2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_l2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_m2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_m2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_m_znak2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_m_znak2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_n2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_o2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_o2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_p2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_p2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_r2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_r2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_s2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_s2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_sh2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_sh2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_shch2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_shch2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_t2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_t2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_ts2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_ts2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_tv_znak2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_tv_znak2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_u2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_u2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_ue2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_ue2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_v2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_y2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_y2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_ya2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_ya2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_yo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_yo2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_yu2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_yu2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_z2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_z2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOW_zh2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\low_zh2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_a2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_a2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_b2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_b2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_ch2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_ch2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_d2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_d2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_e2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_e2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_ee2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_ee2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_ee_kratkoe2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_ee_kratkoe2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_f2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_f2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_g2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_g2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_h2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_h2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_k2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_k2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_l2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_l2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_m2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_m2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_n2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_o2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_o2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_p2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_p2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_r2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_r2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_s2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_s2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_sh2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_sh2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_shch2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_shch2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_t2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_t2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_ts2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_ts2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_u2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_u2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_ue2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_ue2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_v2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_ya2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_ya2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_yo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_yo2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_yu2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_yu2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_z2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_z2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UPP_zh2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\upp_zh2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

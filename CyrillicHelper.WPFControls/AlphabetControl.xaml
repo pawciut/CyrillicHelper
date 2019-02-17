@@ -29,7 +29,7 @@
                             <Image Source="{Binding Image}" Grid.Row="2" Grid.Column="0">
                                 <i:Interaction.Triggers>
                                     <i:EventTrigger EventName="MouseEnter">
-                                        <i:InvokeCommandAction Command="{Binding ElementName=itemsControl,Path=DataContext.PlaySoundCommand}"
+                                        <i:InvokeCommandAction Command="{Binding PlaySoundCommand}"
                                                            CommandParameter="{Binding}"/>
                                     </i:EventTrigger>
                                 </i:Interaction.Triggers>

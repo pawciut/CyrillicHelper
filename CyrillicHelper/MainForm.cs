@@ -23,11 +23,21 @@ namespace CyrillicHelper
                 var wpfControl = alphabetWPFControl.Child as System.Windows.FrameworkElement;
                 wpfControl.DataContext = new AlphabetViewModel();
             }
+
+            lookupForm = new LookupForm();
+            btnLookupWindow_Click(this, new EventArgs());
         }
 
         private void btnAbout_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Materials from http://www.russianforeveryone.com/RufeA/Lessons/Introduction/Alphabet/Alphabet.htm");
+        }
+
+        LookupForm lookupForm;
+
+        private void btnLookupWindow_Click(object sender, EventArgs e)
+        {
+            lookupForm.Show();
         }
     }
 }

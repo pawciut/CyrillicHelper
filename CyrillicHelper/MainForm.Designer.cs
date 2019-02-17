@@ -35,6 +35,8 @@
             this.btnFile = new System.Windows.Forms.ToolStripMenuItem();
             this.btnExit = new System.Windows.Forms.ToolStripMenuItem();
             this.btnAbout = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnView = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnLookupWindow = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.TopToolStripPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
@@ -74,6 +76,7 @@
             this.menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.btnFile,
+            this.btnView,
             this.btnAbout});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -101,6 +104,21 @@
             this.btnAbout.Size = new System.Drawing.Size(52, 20);
             this.btnAbout.Text = "About";
             this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
+            // 
+            // btnView
+            // 
+            this.btnView.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btnLookupWindow});
+            this.btnView.Name = "btnView";
+            this.btnView.Size = new System.Drawing.Size(44, 20);
+            this.btnView.Text = "View";
+            // 
+            // btnLookupWindow
+            // 
+            this.btnLookupWindow.Name = "btnLookupWindow";
+            this.btnLookupWindow.Size = new System.Drawing.Size(180, 22);
+            this.btnLookupWindow.Text = "Lookup Window";
+            this.btnLookupWindow.Click += new System.EventHandler(this.btnLookupWindow_Click);
             // 
             // MainForm
             // 
@@ -131,6 +149,8 @@
         private System.Windows.Forms.Integration.ElementHost alphabetWPFControl;
         private WPFControls.AlphabetControl alphabetControl1;
         private System.Windows.Forms.ToolStripMenuItem btnAbout;
+        private System.Windows.Forms.ToolStripMenuItem btnView;
+        private System.Windows.Forms.ToolStripMenuItem btnLookupWindow;
     }
 }
 

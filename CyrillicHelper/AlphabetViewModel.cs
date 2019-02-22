@@ -337,42 +337,221 @@ namespace CyrillicHelper
 
 
 
-//            Zawody:
+            //            Zawody:
 
-//            administrator parafii – администратор прихода
-//akuszerka – aкушерка
-//parobek – батрак
-//bednarz – бондаръ
-//borowy(gajowy) – боровый
-//piekarz – пекар
-//burmistrz – бургемистръ
-//właściciel – владелецъ
-//włościanin – влостянинъ
-//furman, woźnica – возчикъ
-//wójt gminy – войт гмины
-//garncarz – гончаръ
-//górnik – горнорабочий
-//sługa dworski – дворовый
-//lekarz – докторъ
-//dróżnik – дорожный мастеръ
-//zagrodnik – загродникъ
-//rolnik – земледелецъ
-//chłop – крестянинъ земледелецъ
-//zakrystian, kościelny – ключаръ
-//kolonista – колонистъ
-//kowal – кузнецъ
-//gajowy, strażnik leśny –
-//лесникъ
-//drwal – лесорубъ
-//młynarz – мельникъ
-//owczarz – овчаръ
-//pisarz, kopista, skryba – писец
-//kucharz – поваръ
-//robotnik – работникъ
-//rybak – рыбак
-//ogrodnik, sadownik – садoвникъ
-//ekonom – экономъ
-//tkacz – ткачъ
+            //            administrator parafii – администратор прихода
+            //akuszerka – aкушерка
+            //parobek – батрак
+            //bednarz – бондаръ
+            //borowy(gajowy) – боровый
+            //piekarz – пекар
+            //burmistrz – бургемистръ
+            //właściciel – владелецъ
+            //włościanin – влостянинъ
+            //furman, woźnica – возчикъ
+            //wójt gminy – войт гмины
+            //garncarz – гончаръ
+            //górnik – горнорабочий
+            //sługa dworski – дворовый
+            //lekarz – докторъ
+            //dróżnik – дорожный мастеръ
+            //zagrodnik – загродникъ
+            //rolnik – земледелецъ
+            //chłop – крестянинъ земледелецъ
+            //zakrystian, kościelny – ключаръ
+            //kolonista – колонистъ
+            //kowal – кузнецъ
+            //gajowy, strażnik leśny –
+            //лесникъ
+            //drwal – лесорубъ
+            //młynarz – мельникъ
+            //owczarz – овчаръ
+            //pisarz, kopista, skryba – писец
+            //kucharz – поваръ
+            //robotnik – работникъ
+            //rybak – рыбак
+            //ogrodnik, sadownik – садoвникъ
+            //ekonom – экономъ
+            //tkacz – ткачъ
+
+
+
+
+//            Imiona męskie
+//Polski a-z →	Rosyjski a-z →
+//Abel Авель
+//Adam Адам
+//Adolf Адольф
+//Adrian Адриан
+//Albert Альберт
+//Aleksander Александр
+//Aleksy Алексей
+//Alfons Альфонс
+//Alfred Альфред
+//Amadeusz Амадей
+//Ambroży Амвросий
+//Anastazy Анастасий, Настасий
+//Andrzej Андрей
+//Antoni Антон
+//Anzelm Ансельм
+//Artur Артур
+//August Август
+//Bartłomiej Варфоломей
+//Bazyli Василий
+//Benedykt Венедикт
+//Beniamin Вениамин
+//Bernard Бернар, Бернард
+//Błażej Влас
+//Borys Борис
+//Damian Демьян
+//Daniel Даниил, Данил, Данила
+//Dariusz Дарий
+//Dawid Давид
+//Demetriusz Дмитрий, Димитрий, Деметрий
+//Dionizy Денис
+//Edward Эдуард, Эдвард
+//Emilian Емельян
+//Eugeniusz Евгений
+//Euzebiusz Евсей
+//Ferdynand Фердинанд
+//Filip Филипп
+//Flawiusz Флавий
+//Florian Флориан
+//Franciszek Франциск
+//Gabriel Гавриил
+//Grzegorz Григорий
+//Henryk Генрих
+//Hilary Иларий
+//Hipolit Ипполит
+//Ignacy Игнатий
+//Igor Игорь
+//Ireneusz Ириней
+//Izaak Исаак
+//Izydor Исидор, Сидор
+//Jakub Яков, Иаков
+//Jan, Janusz Иван
+//Jarosław Ярослав
+//Jerzy Юрий
+//Józef Иосиф, Осип
+//Juliusz Юлий
+//Julian Юлиан, Ульян
+//Karol Карл
+//Kazimierz Казимир
+//Klaudiusz Клавдий
+//Klemens Климент
+//Konstanty Константин
+//Kornel, Korneliusz Корнилий
+//Krystian Кристиан
+//Krzysztof Христофор
+//Leon Леон
+//Leonard Леонард
+//Leopold Леопольд
+//Lew Лев
+//Ludwik Людовик, Людвиг
+//Łukasz Лука
+//Maciej Матвей
+//Maksymilian Максимилиан
+//Marceli Маркел, Маркелл
+//Marcin Мартын, Мартин
+//Marian Мариан
+//Mateusz Матвей
+//Marek Марк
+//Michał Михаил
+//Mikołaj Николай
+//Nikodem Никодим
+//Oleg Олег
+//Pankracy Панкратий
+//Patryk Патрик
+//Paweł Павел
+//Piotr Пётр
+//Robert Роберт
+//Roman Роман
+//Sebastian Себастьян, Севастьян
+//Sergiusz Сергей
+//Stanisław Станислав
+//Stefan Степан
+//Sylwester Сильвестр
+//Szymon Симон
+//Tadeusz Фаддей
+//Teodor Теодор‎, Фёдор
+//Teofil Феофил
+//Tomasz Фома
+//Walenty, Walentyn Валентин
+//Wiktor Виктор
+//Wincenty Викентий
+//Włodzimierz Владимир
+//Zachariasz Захария, Захарий, Захар
+//Zenon Зенон
+
+
+//Imiona żeńskie
+//Polski a-z →	Rosyjski a-z →
+//Ada Ада
+//Adriana, Adrianna Адриана, Адрианна
+//Agata Агафья, Агафия, Агата
+//Agnieszka Агнесса, Агнес
+//Aleksandra Александра
+//Alicja Алиса
+//Alina Алина
+//Anastazja Анастасия, Настасья
+//Anna Анна
+//Antonina Антонина
+//Barbara Варвара
+//Cecylia Цецилия
+//Daniela Даниэла
+//Daria Дарья
+//Edyta Эдита, Эдит
+//Elżbieta Елизавета, Елисавета
+//Eugenia Евгения
+//Euzebia Евсевия
+//Ewa Ева
+//Ewelina Эвелина
+//Halina Галина
+//Helena Елена
+//Irena Ирина
+//Izabela Изабелла
+//Joanna Иоанна, Жанна
+//Judyta Юдифь
+//Julia Юлия
+//Kamila Камилла
+//Karolina Каролина
+//Katarzyna Екатерина
+//Kazimiera Казимира
+//Klara Клара
+//Klaudia Клавдия
+//Konstancja Констанция
+//Kornelia Корнелия
+//Krystyna Кристина, Христина
+//Lidia Лидия
+//Ludmiła Людмила
+//Łucja Луция, Лукия
+//Magdalena Магдалина
+//Małgorzata Маргарита
+//Maria Мария
+//Marianna Марианна
+//Marta Марфа
+//Martyna Мартина
+//Maryna Марина
+//Nadzieja Надежда
+//Natalia Наталья, Наталия
+//Natasza Наташа
+//Nina Нина
+//Olga Ольга
+//Paula Павла
+//Roberta Роберта
+//Rozalia Розалия
+//Róża Роза
+//Stanisława Станислава
+//Stefania Стефания, Степанида
+//Sylwia Сильвия
+//Tatiana Татьяна
+//Teodora Теодора, Феодора
+//Urszula Урсула
+//Walentyna Валентина
+//Weronika Вероника
+//Wiktoria Виктория
+//Zofia София, Софья
+//Zuzanna Сусанна
         }
 
         void InitLetters()

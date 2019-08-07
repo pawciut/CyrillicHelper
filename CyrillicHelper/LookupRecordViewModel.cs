@@ -2,9 +2,11 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 using System.Windows;
 using System.Windows.Input;
 using System.Windows.Media.Imaging;
@@ -21,6 +23,7 @@ namespace CyrillicHelper
             LowerCommand = new RelayCommand(cmd => true, LowerCommandExecute);
             ClearCommand = new RelayCommand(cmd => true, ClearCommandExecute);
             CopyCommand = new RelayCommand(cmd => true, CopyCommandExecute);
+            TranslateCommand = new RelayCommand(cmd => true, TranslateCommandExecute);
         }
 
         public ICommand ToggleLettersCommand { get; }
@@ -28,6 +31,7 @@ namespace CyrillicHelper
         public ICommand LowerCommand { get; }
         public ICommand ClearCommand { get; }
         public ICommand CopyCommand { get; }
+        public ICommand TranslateCommand { get; }
 
         Visibility lettersVisibility = Visibility.Visible;
         public Visibility LettersVisibility
@@ -81,6 +85,10 @@ namespace CyrillicHelper
         private void CopyCommandExecute(object param)
         {
             Clipboard.SetText(Text);
+        }
+        private void TranslateCommandExecute(object param)
+        {
+            Process.Start("chrome.exe", HttpUtility.HtmlEncode("https://translate.google.com/?um=1&ie=UTF-8&hl=pl&client=tw-ob#ru/pl/" + Text));
         }
 
         void UpdateTextImages()

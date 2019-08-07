@@ -27,12 +27,13 @@ namespace CyrillicHelper.WPFControls
 
         private void TextBox_SelectionChanged(object sender, RoutedEventArgs e)
         {
-            if(sender != null 
+            if (sender != null
                 && sender is System.Windows.Controls.TextBox txt
-                &&  txt.DataContext is ILookupRecordViewModel lrvm)
+                && txt.DataContext is ILookupRecordViewModel lrvm)
             {
-                lrvm.SelectionStart = txt.SelectionStart;
-                lrvm.SelectionLength = txt.SelectionLength;
+                //TODO:Po pierwszym wstawieniu skacze na indeks 0 !, do poprawy
+                //lrvm.SelectionStart = txt.SelectionStart;
+                //lrvm.SelectionLength = txt.SelectionLength;
             }
         }
     }

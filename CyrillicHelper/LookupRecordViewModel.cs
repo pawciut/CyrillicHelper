@@ -96,8 +96,11 @@ namespace CyrillicHelper
                 var letter = param as Letter;
 
                 int index = SelectionStart + SelectionLength;
+                if (Text == null)
+                    Text = String.Empty;
 
-                Text = Text.Insert(index, letter.PrintedUpper);
+                Text = Text + letter.PrintedUpper;
+                    //Text.Insert(index, letter.PrintedUpper);
             }
         }
         private void LowerCommandExecute(object param)
@@ -106,7 +109,8 @@ namespace CyrillicHelper
             {
                 var letter = param as Letter;
                 int index = SelectionStart + SelectionLength;
-                Text = Text.Insert(index, letter.PrintedLower);
+                Text = Text + letter.PrintedLower;
+                //Text.Insert(index, letter.PrintedLower);
             }
         }
         private void ClearCommandExecute(object param)

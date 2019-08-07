@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 
 namespace CyrillicHelper
 {
-    public class LookupRecordViewModel : ViewModelBase
+    public class LookupRecordViewModel : ViewModelBase, ILookupRecordViewModel
     {
         public event EventHandler DeleteRequested;
 
@@ -56,6 +56,28 @@ namespace CyrillicHelper
             }
         }
 
+
+        int selectionStart;
+        public int SelectionStart 
+    {
+            get { return selectionStart; }
+            set
+            {
+                SetProperty(ref selectionStart, value);
+            }
+        }
+
+        int selectionLength;
+        public int SelectionLength
+        {
+            get { return selectionLength; }
+            set
+            {
+                SetProperty(ref selectionLength, value);
+            }
+        }
+
+
         public List<BitmapImage> TextImages { get; private set; }
         public ObservableCollection<Letter> Letters { get; }
 
@@ -72,7 +94,10 @@ namespace CyrillicHelper
             if (param is Letter)
             {
                 var letter = param as Letter;
-                Text = Text + letter.PrintedUpper;
+
+                int index = SelectionStart + SelectionLength;
+
+                Text = Text.Insert(index, letter.PrintedUpper);
             }
         }
         private void LowerCommandExecute(object param)
@@ -80,7 +105,8 @@ namespace CyrillicHelper
             if (param is Letter)
             {
                 var letter = param as Letter;
-                Text = Text + letter.PrintedLower;
+                int index = SelectionStart + SelectionLength;
+                Text = Text.Insert(index, letter.PrintedLower);
             }
         }
         private void ClearCommandExecute(object param)

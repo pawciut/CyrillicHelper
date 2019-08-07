@@ -15,6 +15,8 @@ namespace CyrillicHelper
 {
     public class LookupRecordViewModel : ViewModelBase
     {
+        public event EventHandler DeleteRequested;
+
         public LookupRecordViewModel()
         {
             Letters = new ObservableCollection<Letter>(AlphabetViewModel.AlphabetItems.OrderBy(l => l.SoundLikePolish));
@@ -24,6 +26,8 @@ namespace CyrillicHelper
             ClearCommand = new RelayCommand(cmd => true, ClearCommandExecute);
             CopyCommand = new RelayCommand(cmd => true, CopyCommandExecute);
             TranslateCommand = new RelayCommand(cmd => true, TranslateCommandExecute);
+            DeleteCommand = new RelayCommand(cmd => true, DeleteCommandExecute);
+
         }
 
         public ICommand ToggleLettersCommand { get; }
@@ -32,6 +36,7 @@ namespace CyrillicHelper
         public ICommand ClearCommand { get; }
         public ICommand CopyCommand { get; }
         public ICommand TranslateCommand { get; }
+        public ICommand DeleteCommand { get; }
 
         Visibility lettersVisibility = Visibility.Visible;
         public Visibility LettersVisibility
@@ -88,7 +93,14 @@ namespace CyrillicHelper
         }
         private void TranslateCommandExecute(object param)
         {
-            Process.Start("chrome.exe", HttpUtility.HtmlEncode("https://translate.google.com/?um=1&ie=UTF-8&hl=pl&client=tw-ob#ru/pl/" + Text));
+            var splitted = Text.Split(new char[] { ' ' });
+            if (splitted.Length > 0)
+                foreach (var part in splitted)
+                    Process.Start("chrome.exe", HttpUtility.HtmlEncode("https://translate.google.com/?um=1&ie=UTF-8&hl=pl&client=tw-ob#ru/pl/" + part));
+        }
+        private void DeleteCommandExecute(object param)
+        {
+            DeleteRequested?.Invoke(this, new EventArgs());
         }
 
         void UpdateTextImages()

@@ -18,6 +18,8 @@ namespace CyrillicHelper
         public MainForm()
         {
             InitializeComponent();
+
+            //Przygotowuje VM dla kontrolek liter
             if(alphabetWPFControl.Child is System.Windows.FrameworkElement)
             {
                 var wpfControl = alphabetWPFControl.Child as System.Windows.FrameworkElement;

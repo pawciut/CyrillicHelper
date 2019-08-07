@@ -14,7 +14,8 @@ namespace CyrillicHelper
 {
     public partial class LookupForm : Form
     {
-        LookupStackPanelViewModel lookupStackPanelViewModel;
+        DictionaryForm dictionaryForm;
+        public LookupStackPanelViewModel lookupStackPanelViewModel;
         public LookupForm()
         {
             InitializeComponent();
@@ -57,6 +58,34 @@ namespace CyrillicHelper
             if(true)
             {
 
+            }
+        }
+
+        private void btnDictionary_Click(object sender, EventArgs e)
+        {
+            if(dictionaryForm == null)
+            {
+                dictionaryForm = new DictionaryForm();
+                dictionaryForm.lookupForm = this;
+            }
+            dictionaryForm.Show();
+        }
+
+        public void AddRecord(string text)
+        {
+            var newRecord = new LookupRecordViewModel();
+            newRecord.Text = text;
+            newRecord.DeleteRequested += NewRecord_DeleteRequested;
+
+            lookupStackPanelViewModel.Records.Add(newRecord);
+        }
+
+        private void NewRecord_DeleteRequested(object sender, EventArgs e)
+        {
+            if(sender is LookupRecordViewModel lrvm)
+            {
+                lrvm.DeleteRequested -= NewRecord_DeleteRequested;
+                lookupStackPanelViewModel.Records.Remove(lrvm);
             }
         }
     }

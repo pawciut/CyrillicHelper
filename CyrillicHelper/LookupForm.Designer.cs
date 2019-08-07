@@ -31,10 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LookupForm));
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.btnAlwaysOnTop = new System.Windows.Forms.ToolStripButton();
-            this.btnSound = new System.Windows.Forms.ToolStripButton();
             this.wpfControlHost = new System.Windows.Forms.Integration.ElementHost();
             this.lookupStackPanel1 = new CyrillicHelper.WPFControls.LookupStackPanel();
+            this.btnAlwaysOnTop = new System.Windows.Forms.ToolStripButton();
+            this.btnSound = new System.Windows.Forms.ToolStripButton();
+            this.btnDictionary = new System.Windows.Forms.ToolStripButton();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.TopToolStripPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
@@ -64,11 +65,22 @@
             this.toolStrip1.Dock = System.Windows.Forms.DockStyle.None;
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.btnAlwaysOnTop,
-            this.btnSound});
+            this.btnSound,
+            this.btnDictionary});
             this.toolStrip1.Location = new System.Drawing.Point(3, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(215, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(311, 25);
             this.toolStrip1.TabIndex = 0;
+            // 
+            // wpfControlHost
+            // 
+            this.wpfControlHost.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.wpfControlHost.Location = new System.Drawing.Point(0, 0);
+            this.wpfControlHost.Name = "wpfControlHost";
+            this.wpfControlHost.Size = new System.Drawing.Size(800, 518);
+            this.wpfControlHost.TabIndex = 0;
+            this.wpfControlHost.Text = "element host";
+            this.wpfControlHost.Child = this.lookupStackPanel1;
             // 
             // btnAlwaysOnTop
             // 
@@ -95,15 +107,15 @@
             this.btnSound.ToolTipText = "Toggle sound on/off";
             this.btnSound.Click += new System.EventHandler(this.btnSound_Click);
             // 
-            // wpfControlHost
+            // btnDictionary
             // 
-            this.wpfControlHost.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.wpfControlHost.Location = new System.Drawing.Point(0, 0);
-            this.wpfControlHost.Name = "wpfControlHost";
-            this.wpfControlHost.Size = new System.Drawing.Size(800, 518);
-            this.wpfControlHost.TabIndex = 0;
-            this.wpfControlHost.Text = "element host";
-            this.wpfControlHost.Child = this.lookupStackPanel1;
+            this.btnDictionary.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.btnDictionary.Image = ((System.Drawing.Image)(resources.GetObject("btnDictionary.Image")));
+            this.btnDictionary.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnDictionary.Name = "btnDictionary";
+            this.btnDictionary.Size = new System.Drawing.Size(65, 22);
+            this.btnDictionary.Text = "Dictionary";
+            this.btnDictionary.Click += new System.EventHandler(this.btnDictionary_Click);
             // 
             // LookupForm
             // 
@@ -137,5 +149,6 @@
         private System.Windows.Forms.Integration.ElementHost wpfControlHost;
         private WPFControls.LookupStackPanel lookupStackPanel1;
         private System.Windows.Forms.ToolStripButton btnSound;
+        private System.Windows.Forms.ToolStripButton btnDictionary;
     }
 }

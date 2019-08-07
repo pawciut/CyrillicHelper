@@ -260,6 +260,7 @@ namespace CyrillicHelper
             //   Properties.Resources.,//"http://www.russianforeveryone.com/RufeA/Lessons/Introduction/Alphabet/.jpg",
             //    Properties.Resources.Sound));
             InitLetters();
+            InitDictionary();
 
             PlaySoundCommand = new RelayCommand(cmd => true, PlaySoundCommandExecute);
         }

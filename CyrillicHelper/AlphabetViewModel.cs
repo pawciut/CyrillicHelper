@@ -333,226 +333,227 @@ namespace CyrillicHelper
             CommonDictionary.Add(new DictionaryEntry("brat", "брат", category));
             CommonDictionary.Add(new DictionaryEntry("siostra", "сестра", category));
 
+            category = "Imiona męskie:";
+
+            CommonDictionary.Add(new DictionaryEntry("Abel", "Авель", category));
+            CommonDictionary.Add(new DictionaryEntry("Adam", "Адам", category));
+            CommonDictionary.Add(new DictionaryEntry("Adolf", "Адольф", category));
+            CommonDictionary.Add(new DictionaryEntry("Adrian", "Адриан", category));
+            CommonDictionary.Add(new DictionaryEntry("Albert", "Альберт", category));
+            CommonDictionary.Add(new DictionaryEntry("Aleksander", "Александр", category));
+            CommonDictionary.Add(new DictionaryEntry("Aleksy", "Алексей", category));
+            CommonDictionary.Add(new DictionaryEntry("Alfons", "Альфонс", category));
+            CommonDictionary.Add(new DictionaryEntry("Alfred", "Альфред", category));
+            CommonDictionary.Add(new DictionaryEntry("Amadeusz", "Амадей", category));
+            CommonDictionary.Add(new DictionaryEntry("Ambroży", "Амвросий", category));
+            CommonDictionary.Add(new DictionaryEntry("Anastazy", "Анастасий, Настасий", category));
+            CommonDictionary.Add(new DictionaryEntry("Andrzej", "Андрей", category));
+            CommonDictionary.Add(new DictionaryEntry("Antoni", "Антон", category));
+            CommonDictionary.Add(new DictionaryEntry("Anzelm", "Ансельм", category));
+            CommonDictionary.Add(new DictionaryEntry("Artur", "Артур", category));
+            CommonDictionary.Add(new DictionaryEntry("August", "Август", category));
+            CommonDictionary.Add(new DictionaryEntry("Bartłomiej", "Варфоломей", category));
+            CommonDictionary.Add(new DictionaryEntry("Bazyli", "Василий", category));
+            CommonDictionary.Add(new DictionaryEntry("Benedykt", "Венедикт", category));
+            CommonDictionary.Add(new DictionaryEntry("Beniamin", "Вениамин", category));
+            CommonDictionary.Add(new DictionaryEntry("Bernard", "Бернар, Бернард", category));
+            CommonDictionary.Add(new DictionaryEntry("Błażej", "Влас", category));
+            CommonDictionary.Add(new DictionaryEntry("Borys", "Борис", category));
+            CommonDictionary.Add(new DictionaryEntry("Damian", "Демьян", category));
+            CommonDictionary.Add(new DictionaryEntry("Daniel", "Даниил, Данил, Данила", category));
+            CommonDictionary.Add(new DictionaryEntry("Dariusz", "Дарий", category));
+            CommonDictionary.Add(new DictionaryEntry("Dawid", "Давид", category));
+            CommonDictionary.Add(new DictionaryEntry("Demetriusz", "Дмитрий, Димитрий, Деметрий", category));
+            CommonDictionary.Add(new DictionaryEntry("Dionizy", "Денис", category));
+            CommonDictionary.Add(new DictionaryEntry("Edward", "Эдуард, Эдвард", category));
+            CommonDictionary.Add(new DictionaryEntry("Emilian", "Емельян", category));
+            CommonDictionary.Add(new DictionaryEntry("Eugeniusz", "Евгений", category));
+            CommonDictionary.Add(new DictionaryEntry("Euzebiusz", "Евсей", category));
+            CommonDictionary.Add(new DictionaryEntry("Ferdynand", "Фердинанд", category));
+            CommonDictionary.Add(new DictionaryEntry("Filip", "Филипп", category));
+            CommonDictionary.Add(new DictionaryEntry("Flawiusz", "Флавий", category));
+            CommonDictionary.Add(new DictionaryEntry("Florian", "Флориан", category));
+            CommonDictionary.Add(new DictionaryEntry("Franciszek", "Франциск", category));
+            CommonDictionary.Add(new DictionaryEntry("Gabriel", "Гавриил", category));
+            CommonDictionary.Add(new DictionaryEntry("Grzegorz", "Григорий", category));
+            CommonDictionary.Add(new DictionaryEntry("Henryk", "Генрих", category));
+            CommonDictionary.Add(new DictionaryEntry("Hilary", "Иларий", category));
+            CommonDictionary.Add(new DictionaryEntry("Hipolit", "Ипполит", category));
+            CommonDictionary.Add(new DictionaryEntry("Ignacy", "Игнатий", category));
+            CommonDictionary.Add(new DictionaryEntry("Igor", "Игорь", category));
+            CommonDictionary.Add(new DictionaryEntry("Ireneusz", "Ириней", category));
+            CommonDictionary.Add(new DictionaryEntry("Izaak", "Исаак", category));
+            CommonDictionary.Add(new DictionaryEntry("Izydor", "Исидор, Сидор", category));
+            CommonDictionary.Add(new DictionaryEntry("Jakub", "Яков, Иаков", category));
+            CommonDictionary.Add(new DictionaryEntry("Jan, Janusz", "Иван", category));
+            CommonDictionary.Add(new DictionaryEntry("Jarosław", "Ярослав", category));
+            CommonDictionary.Add(new DictionaryEntry("Jerzy", "Юрий", category));
+            CommonDictionary.Add(new DictionaryEntry("Józef", "Иосиф, Осип", category));
+            CommonDictionary.Add(new DictionaryEntry("Juliusz", "Юлий", category));
+            CommonDictionary.Add(new DictionaryEntry("Julian", "Юлиан, Ульян", category));
+            CommonDictionary.Add(new DictionaryEntry("Karol", "Карл", category));
+            CommonDictionary.Add(new DictionaryEntry("Kazimierz", "Казимир", category));
+            CommonDictionary.Add(new DictionaryEntry("Klaudiusz", "Клавдий", category));
+            CommonDictionary.Add(new DictionaryEntry("Klemens", "Климент", category));
+            CommonDictionary.Add(new DictionaryEntry("Konstanty", "Константин", category));
+            CommonDictionary.Add(new DictionaryEntry("Kornel, Korneliusz", "Корнилий", category));
+            CommonDictionary.Add(new DictionaryEntry("Krystian", "Кристиан", category));
+            CommonDictionary.Add(new DictionaryEntry("Krzysztof", "Христофор", category));
+            CommonDictionary.Add(new DictionaryEntry("Leon", "Леон", category));
+            CommonDictionary.Add(new DictionaryEntry("Leonard", "Леонард", category));
+            CommonDictionary.Add(new DictionaryEntry("Leopold", "Леопольд", category));
+            CommonDictionary.Add(new DictionaryEntry("Lew", "Лев", category));
+            CommonDictionary.Add(new DictionaryEntry("Ludwik", "Людовик, Людвиг", category));
+            CommonDictionary.Add(new DictionaryEntry("Łukasz", "Лука", category));
+            CommonDictionary.Add(new DictionaryEntry("Maciej", "Матвей", category));
+            CommonDictionary.Add(new DictionaryEntry("Maksymilian", "Максимилиан", category));
+            CommonDictionary.Add(new DictionaryEntry("Marceli", "Маркел, Маркелл", category));
+            CommonDictionary.Add(new DictionaryEntry("Marcin", "Мартын, Мартин", category));
+            CommonDictionary.Add(new DictionaryEntry("Marian", "Мариан", category));
+            CommonDictionary.Add(new DictionaryEntry("Mateusz", "Матвей", category));
+            CommonDictionary.Add(new DictionaryEntry("Marek", "Марк", category));
+            CommonDictionary.Add(new DictionaryEntry("Michał", "Михаил", category));
+            CommonDictionary.Add(new DictionaryEntry("Mikołaj", "Николай", category));
+            CommonDictionary.Add(new DictionaryEntry("Nikodem", "Никодим", category));
+            CommonDictionary.Add(new DictionaryEntry("Oleg", "Олег", category));
+            CommonDictionary.Add(new DictionaryEntry("Pankracy", "Панкратий", category));
+            CommonDictionary.Add(new DictionaryEntry("Patryk", "Патрик", category));
+            CommonDictionary.Add(new DictionaryEntry("Paweł", "Павел", category));
+            CommonDictionary.Add(new DictionaryEntry("Piotr", "Пётр", category));
+            CommonDictionary.Add(new DictionaryEntry("Robert", "Роберт", category));
+            CommonDictionary.Add(new DictionaryEntry("Roman", "Роман", category));
+            CommonDictionary.Add(new DictionaryEntry("Sebastian", "Себастьян, Севастьян", category));
+            CommonDictionary.Add(new DictionaryEntry("Sergiusz", "Сергей", category));
+            CommonDictionary.Add(new DictionaryEntry("Stanisław", "Станислав", category));
+            CommonDictionary.Add(new DictionaryEntry("Stefan", "Степан", category));
+            CommonDictionary.Add(new DictionaryEntry("Sylwester", "Сильвестр", category));
+            CommonDictionary.Add(new DictionaryEntry("Szymon", "Симон", category));
+            CommonDictionary.Add(new DictionaryEntry("Tadeusz", "Фаддей", category));
+            CommonDictionary.Add(new DictionaryEntry("Teodor", "Теодор‎, Фёдор", category));
+            CommonDictionary.Add(new DictionaryEntry("Teofil", "Феофил", category));
+            CommonDictionary.Add(new DictionaryEntry("Tomasz", "Фома", category));
+            CommonDictionary.Add(new DictionaryEntry("Walenty, Walentyn", "Валентин", category));
+            CommonDictionary.Add(new DictionaryEntry("Wiktor", "Виктор", category));
+            CommonDictionary.Add(new DictionaryEntry("Wincenty", "Викентий", category));
+            CommonDictionary.Add(new DictionaryEntry("Włodzimierz", "Владимир", category));
+            CommonDictionary.Add(new DictionaryEntry("Zachariasz", "Захария, Захарий, Захар", category));
+            CommonDictionary.Add(new DictionaryEntry("Zenon", "Зенон", category));
+
+
+            category = "Imiona żeńskie:";
+            CommonDictionary.Add(new DictionaryEntry("Ada", "Ада", category));
+            CommonDictionary.Add(new DictionaryEntry("Adriana, Adrianna", "Адриана, Адрианна", category));
+            CommonDictionary.Add(new DictionaryEntry("Agata", "Агафья, Агафия, Агата", category));
+            CommonDictionary.Add(new DictionaryEntry("Agnieszka", "Агнесса, Агнес", category));
+            CommonDictionary.Add(new DictionaryEntry("Aleksandra", "Александра", category));
+            CommonDictionary.Add(new DictionaryEntry("Alicja", "Алиса", category));
+            CommonDictionary.Add(new DictionaryEntry("Alina", "Алина", category));
+            CommonDictionary.Add(new DictionaryEntry("Anastazja", "Анастасия, Настасья", category));
+            CommonDictionary.Add(new DictionaryEntry("Anna", "Анна", category));
+            CommonDictionary.Add(new DictionaryEntry("Antonina", "Антонина", category));
+            CommonDictionary.Add(new DictionaryEntry("Barbara", "Варвара", category));
+            CommonDictionary.Add(new DictionaryEntry("Cecylia", "Цецилия", category));
+            CommonDictionary.Add(new DictionaryEntry("Daniela", "Даниэла", category));
+            CommonDictionary.Add(new DictionaryEntry("Daria", "Дарья", category));
+            CommonDictionary.Add(new DictionaryEntry("Edyta", "Эдита, Эдит", category));
+            CommonDictionary.Add(new DictionaryEntry("Elżbieta", "Елизавета, Елисавета", category));
+            CommonDictionary.Add(new DictionaryEntry("Eugenia", "Евгения", category));
+            CommonDictionary.Add(new DictionaryEntry("Euzebia", "Евсевия", category));
+            CommonDictionary.Add(new DictionaryEntry("Ewa", "Ева", category));
+            CommonDictionary.Add(new DictionaryEntry("Ewelina", "Эвелина", category));
+            CommonDictionary.Add(new DictionaryEntry("Halina", "Галина", category));
+            CommonDictionary.Add(new DictionaryEntry("Helena", "Елена", category));
+            CommonDictionary.Add(new DictionaryEntry("Irena", "Ирина", category));
+            CommonDictionary.Add(new DictionaryEntry("Izabela", "Изабелла", category));
+            CommonDictionary.Add(new DictionaryEntry("Joanna", "Иоанна, Жанна", category));
+            CommonDictionary.Add(new DictionaryEntry("Judyta", "Юдифь", category));
+            CommonDictionary.Add(new DictionaryEntry("Julia", "Юлия", category));
+            CommonDictionary.Add(new DictionaryEntry("Kamila", "Камилла", category));
+            CommonDictionary.Add(new DictionaryEntry("Karolina", "Каролина", category));
+            CommonDictionary.Add(new DictionaryEntry("Katarzyna", "Екатерина", category));
+            CommonDictionary.Add(new DictionaryEntry("Kazimiera", "Казимира", category));
+            CommonDictionary.Add(new DictionaryEntry("Klara", "Клара", category));
+            CommonDictionary.Add(new DictionaryEntry("Klaudia", "Клавдия", category));
+            CommonDictionary.Add(new DictionaryEntry("Konstancja", "Констанция", category));
+            CommonDictionary.Add(new DictionaryEntry("Kornelia", "Корнелия", category));
+            CommonDictionary.Add(new DictionaryEntry("Krystyna", "Кристина, Христина", category));
+            CommonDictionary.Add(new DictionaryEntry("Lidia", "Лидия", category));
+            CommonDictionary.Add(new DictionaryEntry("Ludmiła", "Людмила", category));
+            CommonDictionary.Add(new DictionaryEntry("Łucja", "Луция, Лукия", category));
+            CommonDictionary.Add(new DictionaryEntry("Magdalena", "Магдалина", category));
+            CommonDictionary.Add(new DictionaryEntry("Małgorzata", "Маргарита", category));
+            CommonDictionary.Add(new DictionaryEntry("Maria", "Мария", category));
+            CommonDictionary.Add(new DictionaryEntry("Marianna", "Марианна", category));
+            CommonDictionary.Add(new DictionaryEntry("Marta", "Марфа", category));
+            CommonDictionary.Add(new DictionaryEntry("Martyna", "Мартина", category));
+            CommonDictionary.Add(new DictionaryEntry("Maryna", "Марина", category));
+            CommonDictionary.Add(new DictionaryEntry("Nadzieja", "Надежда", category));
+            CommonDictionary.Add(new DictionaryEntry("Natalia", "Наталья, Наталия", category));
+            CommonDictionary.Add(new DictionaryEntry("Natasza", "Наташа", category));
+            CommonDictionary.Add(new DictionaryEntry("Nina", "Нина", category));
+            CommonDictionary.Add(new DictionaryEntry("Olga", "Ольга", category));
+            CommonDictionary.Add(new DictionaryEntry("Paula", "Павла", category));
+            CommonDictionary.Add(new DictionaryEntry("Roberta", "Роберта", category));
+            CommonDictionary.Add(new DictionaryEntry("Rozalia", "Розалия", category));
+            CommonDictionary.Add(new DictionaryEntry("Róża", "Роза", category));
+            CommonDictionary.Add(new DictionaryEntry("Stanisława", "Станислава", category));
+            CommonDictionary.Add(new DictionaryEntry("Stefania", "Стефания, Степанида", category));
+            CommonDictionary.Add(new DictionaryEntry("Sylwia", "Сильвия", category));
+            CommonDictionary.Add(new DictionaryEntry("Tatiana", "Татьяна", category));
+            CommonDictionary.Add(new DictionaryEntry("Teodora", "Теодора, Феодора", category));
+            CommonDictionary.Add(new DictionaryEntry("Urszula", "Урсула", category));
+            CommonDictionary.Add(new DictionaryEntry("Walentyna", "Валентина", category));
+            CommonDictionary.Add(new DictionaryEntry("Weronika", "Вероника", category));
+            CommonDictionary.Add(new DictionaryEntry("Wiktoria", "Виктория", category));
+            CommonDictionary.Add(new DictionaryEntry("Zofia", "София, Софья", category));
+            CommonDictionary.Add(new DictionaryEntry("Zuzanna", "Сусанна", category));
+
+
 
             //CommonDictionary.Add(new DictionaryEntry("", "", category));
 
+            category = "Zawody:";
 
-
-            //            Zawody:
-
-            //            administrator parafii – администратор прихода
-            //akuszerka – aкушерка
-            //parobek – батрак
-            //bednarz – бондаръ
-            //borowy(gajowy) – боровый
-            //piekarz – пекар
-            //burmistrz – бургемистръ
-            //właściciel – владелецъ
-            //włościanin – влостянинъ
-            //furman, woźnica – возчикъ
-            //wójt gminy – войт гмины
-            //garncarz – гончаръ
-            //górnik – горнорабочий
-            //sługa dworski – дворовый
-            //lekarz – докторъ
-            //dróżnik – дорожный мастеръ
-            //zagrodnik – загродникъ
-            //rolnik – земледелецъ
-            //chłop – крестянинъ земледелецъ
-            //zakrystian, kościelny – ключаръ
-            //kolonista – колонистъ
-            //kowal – кузнецъ
-            //gajowy, strażnik leśny –
-            //лесникъ
-            //drwal – лесорубъ
-            //młynarz – мельникъ
-            //owczarz – овчаръ
-            //pisarz, kopista, skryba – писец
-            //kucharz – поваръ
-            //robotnik – работникъ
-            //rybak – рыбак
-            //ogrodnik, sadownik – садoвникъ
-            //ekonom – экономъ
-            //tkacz – ткачъ
-
+            
+            CommonDictionary.Add(new DictionaryEntry("chłop", "крестянинъ земледелецъ", category));
+            CommonDictionary.Add(new DictionaryEntry("rolnik", "земледелецъ", category));
+            CommonDictionary.Add(new DictionaryEntry("kowal", "кузнецъ", category));
+            CommonDictionary.Add(new DictionaryEntry("administrator parafii", "администратор прихода", category));
+            CommonDictionary.Add(new DictionaryEntry("akuszerka", "aкушерка", category));
+            CommonDictionary.Add(new DictionaryEntry("parobek", "батрак", category));
+            CommonDictionary.Add(new DictionaryEntry("bednarz", "бондаръ", category));
+            CommonDictionary.Add(new DictionaryEntry("borowy(gajowy)", "боровый", category));
+            CommonDictionary.Add(new DictionaryEntry("piekarz", "пекар", category));
+            CommonDictionary.Add(new DictionaryEntry("burmistrz", "бургемистръ", category));
+            CommonDictionary.Add(new DictionaryEntry("właściciel", "владелецъ", category));
+            CommonDictionary.Add(new DictionaryEntry("włościanin", "влостянинъ", category));
+            CommonDictionary.Add(new DictionaryEntry("gajowy, strażnik leśny", "лесникъ", category));
+            CommonDictionary.Add(new DictionaryEntry("furman, woźnica", "возчикъ", category));
+            CommonDictionary.Add(new DictionaryEntry("wójt gminy", "войт гмины", category));
+            CommonDictionary.Add(new DictionaryEntry("garncarz", "гончаръ", category));
+            CommonDictionary.Add(new DictionaryEntry("górnik", "горнорабочий", category));
+            CommonDictionary.Add(new DictionaryEntry("sługa dworski ", "дворовый", category));
+            CommonDictionary.Add(new DictionaryEntry("lekarz", "докторъ", category));
+            CommonDictionary.Add(new DictionaryEntry("dróżnik", "дорожный мастеръ", category));
+            CommonDictionary.Add(new DictionaryEntry("zagrodnik", "загродникъ", category));
+            CommonDictionary.Add(new DictionaryEntry("zakrystian, kościelny", "ключаръ", category));
+            CommonDictionary.Add(new DictionaryEntry("kolonista", "колонистъ", category));
+            CommonDictionary.Add(new DictionaryEntry("drwal", "лесорубъ", category));
+            CommonDictionary.Add(new DictionaryEntry("młynarz", "мельникъ", category));
+            CommonDictionary.Add(new DictionaryEntry("owczarz", "овчаръ", category));
+            CommonDictionary.Add(new DictionaryEntry("pisarz, kopista, skryba", "писец", category));
+            CommonDictionary.Add(new DictionaryEntry("kucharz", "поваръ", category));
+            CommonDictionary.Add(new DictionaryEntry("robotnik", "работникъ", category));
+            CommonDictionary.Add(new DictionaryEntry("rybak", "рыбак", category));
+            CommonDictionary.Add(new DictionaryEntry("ogrodnik, sadownik", "садoвникъ", category));
+            CommonDictionary.Add(new DictionaryEntry("ekonom", "экономъ", category));
+            CommonDictionary.Add(new DictionaryEntry("tkacz", "ткачъ", category));
 
 
 
-//            Imiona męskie
-//Polski a-z →	Rosyjski a-z →
-//Abel Авель
-//Adam Адам
-//Adolf Адольф
-//Adrian Адриан
-//Albert Альберт
-//Aleksander Александр
-//Aleksy Алексей
-//Alfons Альфонс
-//Alfred Альфред
-//Amadeusz Амадей
-//Ambroży Амвросий
-//Anastazy Анастасий, Настасий
-//Andrzej Андрей
-//Antoni Антон
-//Anzelm Ансельм
-//Artur Артур
-//August Август
-//Bartłomiej Варфоломей
-//Bazyli Василий
-//Benedykt Венедикт
-//Beniamin Вениамин
-//Bernard Бернар, Бернард
-//Błażej Влас
-//Borys Борис
-//Damian Демьян
-//Daniel Даниил, Данил, Данила
-//Dariusz Дарий
-//Dawid Давид
-//Demetriusz Дмитрий, Димитрий, Деметрий
-//Dionizy Денис
-//Edward Эдуард, Эдвард
-//Emilian Емельян
-//Eugeniusz Евгений
-//Euzebiusz Евсей
-//Ferdynand Фердинанд
-//Filip Филипп
-//Flawiusz Флавий
-//Florian Флориан
-//Franciszek Франциск
-//Gabriel Гавриил
-//Grzegorz Григорий
-//Henryk Генрих
-//Hilary Иларий
-//Hipolit Ипполит
-//Ignacy Игнатий
-//Igor Игорь
-//Ireneusz Ириней
-//Izaak Исаак
-//Izydor Исидор, Сидор
-//Jakub Яков, Иаков
-//Jan, Janusz Иван
-//Jarosław Ярослав
-//Jerzy Юрий
-//Józef Иосиф, Осип
-//Juliusz Юлий
-//Julian Юлиан, Ульян
-//Karol Карл
-//Kazimierz Казимир
-//Klaudiusz Клавдий
-//Klemens Климент
-//Konstanty Константин
-//Kornel, Korneliusz Корнилий
-//Krystian Кристиан
-//Krzysztof Христофор
-//Leon Леон
-//Leonard Леонард
-//Leopold Леопольд
-//Lew Лев
-//Ludwik Людовик, Людвиг
-//Łukasz Лука
-//Maciej Матвей
-//Maksymilian Максимилиан
-//Marceli Маркел, Маркелл
-//Marcin Мартын, Мартин
-//Marian Мариан
-//Mateusz Матвей
-//Marek Марк
-//Michał Михаил
-//Mikołaj Николай
-//Nikodem Никодим
-//Oleg Олег
-//Pankracy Панкратий
-//Patryk Патрик
-//Paweł Павел
-//Piotr Пётр
-//Robert Роберт
-//Roman Роман
-//Sebastian Себастьян, Севастьян
-//Sergiusz Сергей
-//Stanisław Станислав
-//Stefan Степан
-//Sylwester Сильвестр
-//Szymon Симон
-//Tadeusz Фаддей
-//Teodor Теодор‎, Фёдор
-//Teofil Феофил
-//Tomasz Фома
-//Walenty, Walentyn Валентин
-//Wiktor Виктор
-//Wincenty Викентий
-//Włodzimierz Владимир
-//Zachariasz Захария, Захарий, Захар
-//Zenon Зенон
+          
 
 
-//Imiona żeńskie
-//Polski a-z →	Rosyjski a-z →
-//Ada Ада
-//Adriana, Adrianna Адриана, Адрианна
-//Agata Агафья, Агафия, Агата
-//Agnieszka Агнесса, Агнес
-//Aleksandra Александра
-//Alicja Алиса
-//Alina Алина
-//Anastazja Анастасия, Настасья
-//Anna Анна
-//Antonina Антонина
-//Barbara Варвара
-//Cecylia Цецилия
-//Daniela Даниэла
-//Daria Дарья
-//Edyta Эдита, Эдит
-//Elżbieta Елизавета, Елисавета
-//Eugenia Евгения
-//Euzebia Евсевия
-//Ewa Ева
-//Ewelina Эвелина
-//Halina Галина
-//Helena Елена
-//Irena Ирина
-//Izabela Изабелла
-//Joanna Иоанна, Жанна
-//Judyta Юдифь
-//Julia Юлия
-//Kamila Камилла
-//Karolina Каролина
-//Katarzyna Екатерина
-//Kazimiera Казимира
-//Klara Клара
-//Klaudia Клавдия
-//Konstancja Констанция
-//Kornelia Корнелия
-//Krystyna Кристина, Христина
-//Lidia Лидия
-//Ludmiła Людмила
-//Łucja Луция, Лукия
-//Magdalena Магдалина
-//Małgorzata Маргарита
-//Maria Мария
-//Marianna Марианна
-//Marta Марфа
-//Martyna Мартина
-//Maryna Марина
-//Nadzieja Надежда
-//Natalia Наталья, Наталия
-//Natasza Наташа
-//Nina Нина
-//Olga Ольга
-//Paula Павла
-//Roberta Роберта
-//Rozalia Розалия
-//Róża Роза
-//Stanisława Станислава
-//Stefania Стефания, Степанида
-//Sylwia Сильвия
-//Tatiana Татьяна
-//Teodora Теодора, Феодора
-//Urszula Урсула
-//Walentyna Валентина
-//Weronika Вероника
-//Wiktoria Виктория
-//Zofia София, Софья
-//Zuzanna Сусанна
         }
 
         void InitLetters()

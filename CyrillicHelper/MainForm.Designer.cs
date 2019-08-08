@@ -34,9 +34,9 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.btnFile = new System.Windows.Forms.ToolStripMenuItem();
             this.btnExit = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.btnView = new System.Windows.Forms.ToolStripMenuItem();
             this.btnLookupWindow = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.TopToolStripPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
@@ -49,11 +49,11 @@
             // toolStripContainer1.ContentPanel
             // 
             this.toolStripContainer1.ContentPanel.Controls.Add(this.alphabetWPFControl);
-            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(800, 426);
+            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(346, 7);
             this.toolStripContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.toolStripContainer1.Location = new System.Drawing.Point(0, 0);
             this.toolStripContainer1.Name = "toolStripContainer1";
-            this.toolStripContainer1.Size = new System.Drawing.Size(800, 450);
+            this.toolStripContainer1.Size = new System.Drawing.Size(346, 31);
             this.toolStripContainer1.TabIndex = 0;
             this.toolStripContainer1.Text = "toolStripContainer1";
             // 
@@ -66,7 +66,7 @@
             this.alphabetWPFControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.alphabetWPFControl.Location = new System.Drawing.Point(0, 0);
             this.alphabetWPFControl.Name = "alphabetWPFControl";
-            this.alphabetWPFControl.Size = new System.Drawing.Size(800, 426);
+            this.alphabetWPFControl.Size = new System.Drawing.Size(346, 7);
             this.alphabetWPFControl.TabIndex = 0;
             this.alphabetWPFControl.Text = "alphabetWPFControl";
             this.alphabetWPFControl.Child = this.alphabetControl1;
@@ -80,7 +80,7 @@
             this.btnAbout});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(346, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -95,15 +95,8 @@
             // btnExit
             // 
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(180, 22);
+            this.btnExit.Size = new System.Drawing.Size(92, 22);
             this.btnExit.Text = "Exit";
-            // 
-            // btnAbout
-            // 
-            this.btnAbout.Name = "btnAbout";
-            this.btnAbout.Size = new System.Drawing.Size(52, 20);
-            this.btnAbout.Text = "About";
-            this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
             // 
             // btnView
             // 
@@ -116,15 +109,22 @@
             // btnLookupWindow
             // 
             this.btnLookupWindow.Name = "btnLookupWindow";
-            this.btnLookupWindow.Size = new System.Drawing.Size(180, 22);
+            this.btnLookupWindow.Size = new System.Drawing.Size(161, 22);
             this.btnLookupWindow.Text = "Lookup Window";
             this.btnLookupWindow.Click += new System.EventHandler(this.btnLookupWindow_Click);
+            // 
+            // btnAbout
+            // 
+            this.btnAbout.Name = "btnAbout";
+            this.btnAbout.Size = new System.Drawing.Size(52, 20);
+            this.btnAbout.Text = "About";
+            this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(346, 31);
             this.Controls.Add(this.toolStripContainer1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainForm";

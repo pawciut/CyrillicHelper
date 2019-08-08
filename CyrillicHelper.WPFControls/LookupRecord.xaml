@@ -17,7 +17,7 @@
             <ItemsControl x:Name="itemsControl2" ItemsSource="{Binding Letters}" Visibility="{Binding LettersVisibility}" Margin="20" Grid.Row="1">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
-                        <Border BorderThickness="1" BorderBrush="Black" Width="100">
+                        <Border BorderThickness="1" BorderBrush="Black" Width="120">
                             <Grid>
                                 <Grid.RowDefinitions>
                                     <RowDefinition/>

@@ -25,7 +25,7 @@ namespace CyrillicHelper
                 var wpfControl = alphabetWPFControl.Child as System.Windows.FrameworkElement;
                 wpfControl.DataContext = new AlphabetViewModel();
             }
-
+            alphabetWPFControl.Visible = false;
             lookupForm = new LookupForm();
             btnLookupWindow_Click(this, new EventArgs());
         }

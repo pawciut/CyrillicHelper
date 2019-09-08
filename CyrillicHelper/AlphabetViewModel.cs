@@ -551,7 +551,17 @@ namespace CyrillicHelper
 
 
 
-          
+           category = "Przyczyny śmierci";
+
+            
+            CommonDictionary.Add(new DictionaryEntry("biegunka", "понос, диарея", category));
+            CommonDictionary.Add(new DictionaryEntry("gruźlica", "чахотка, туберкулёз, čaχotka", category));
+            CommonDictionary.Add(new DictionaryEntry("gorączka", "горячк, температура, жар, лихорадка", category));
+            CommonDictionary.Add(new DictionaryEntry("koklusz, krztusiec", "корллюша", category));
+            CommonDictionary.Add(new DictionaryEntry("krup", "круп", category));
+            CommonDictionary.Add(new DictionaryEntry("opuchlina", "опухлины", category));
+            CommonDictionary.Add(new DictionaryEntry("tyfus", " , тиф", category));
+            CommonDictionary.Add(new DictionaryEntry("ze starości", "старост", category));
 
 
         }
